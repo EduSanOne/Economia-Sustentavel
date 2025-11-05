@@ -11,16 +11,18 @@ html, body {
 }
 
 header {
-    background: linear-gradient(to bottom, rgb(0, 185, 0), rgb(126, 128, 0));
+    background: linear-gradient(to bottom, rgb(0, 185, 0), rgb(0, 99, 0));
     display: flex;
     justify-content: space-between;
     align-content: center;
     padding: 10px;
+    width: 100%;
 }
 
 header img {
     display: block;
-    height: 120px;
+    width: 200px;
+    margin-left: 50px;
 }
 
 #navbar {
@@ -33,7 +35,7 @@ header img {
     display: flex;
     flex-flow: row wrap;
     align-content: center;
-    padding-right: 20px;
+    padding-right: 50px;
     font-size: 1.2em;
 }
 
@@ -48,26 +50,30 @@ header img {
 
 main {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 100%;
 }
 
 #apresentacao {
+    display: block;
+    margin: 50px auto;
     background-color: antiquewhite;
     padding: 15px;
     border-radius: 10px;
-    max-width: 800px;
+    max-width: 300px;
+    max-height: 100%;
     text-align: center;
-    margin: 50px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.438);
+}
 
+#apresentacao iframe {
+    max-width: 250px;
+    border-radius: 5px;
 }
 
 footer {
     display: block;
-    margin: auto;
-    background: linear-gradient(to bottom, rgb(0, 185, 0), rgb(126, 128, 0));
+    background: linear-gradient(to bottom, rgb(0, 185, 0), rgb(0, 99, 0));
     text-align: center;
-    padding: 10px;
+    padding: 15px;
     color: white;
 }
