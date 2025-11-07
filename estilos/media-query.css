@@ -14,12 +14,12 @@ Grande telas: acima de 1200px
 main {
     height: 100%;
     display: block;
-    margin-bottom: 50px;
 }
 
 #apresentacao {
     min-width: 50vw;
     font-size: 1.2em;
+    height: 55%;
     }
 
 #apresentacao iframe {
