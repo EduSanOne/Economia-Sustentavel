@@ -50,25 +50,27 @@ header img {
 }
 
 main {
-    display: flex;
+    display: block;
     width: 100%;
-    height: auto;
+    height: 100%;
+    margin-bottom: 50px;
 }
 
 #apresentacao {
+    font-size: 1.2em;
     display: block;
     margin: 50px auto;
+    height: 80%;
+    width: 80%;
     background-color: antiquewhite;
     padding: 15px;
     border-radius: 10px;
-    height: 100%;
-    max-width: 300px;
     text-align: center;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.438);
 }
 
+
 #apresentacao iframe {
-    max-width: 250px;
     margin: 20px auto;
     border-radius: 10px;
 }
