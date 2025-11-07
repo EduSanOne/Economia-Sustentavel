@@ -13,16 +13,22 @@ Grande telas: acima de 1200px
 
 main {
     height: 100%;
+    display: block;
+    margin-bottom: 50px;
 }
 
 #apresentacao {
     min-width: 50vw;
     font-size: 1.2em;
-    height: 60%;
     }
 
 #apresentacao iframe {
     min-width: 35vw;
+}
+
+main p {
+    text-align: justify;
+    text-indent: 40px;
 }
 
 }
